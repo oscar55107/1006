@@ -47,28 +47,35 @@ function update(item){
         let weight = item[i].weightVal;
         let bmi = (weight / Math.pow(height,2)).toFixed(2);
         let result = "";
-        switch(bmi){
-            case bmi <=15 :
+        switch(true){
+            case bmi <=15 :{
                 result = "非常嚴重的體重不足";
                 break;
-            case bmi >15 && bmi <=16 :
+            }
+            case bmi >15 && bmi <=16 :{
                 result = '嚴重體重不足';
                 break;
-            case bmi >16 && bmi <=18.5 :
+            }
+            case bmi >16 && bmi <=18.5 :{
                 result = '體重過輕';
                 break;
-            case bmi >18.5 && bmi <=25:
+            }
+            case bmi >18.5 && bmi <=25:{
                 result = '體重正常';
                 break;
-            case bmi >25 && bmi <=30:
+            }
+            case bmi >25 && bmi <=30:{
                 result = '體重過重';
                 break;
-            case bmi >30 && bmi <=35:
+            }
+            case bmi >30 && bmi <=35:{
                 result = '中等肥胖';
                 break;
-            case bmi >35 && bmi <=40:
+            }
+            case bmi >35 && bmi <=40:{
                 result = '嚴重肥胖';
                 break;
+            }
         }
         console.log(result);
         str+= `    
