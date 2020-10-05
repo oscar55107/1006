@@ -81,9 +81,9 @@ function update(item){
         str+= `    
                 <div class="d-flex justify-content-center align-items-center py-3">
                     <div class="text-white mr-3">${result}</div>
-                    <div class="text-white mr-3">BMI: ${bmi}</div>
-                    <div class="text-white mr-3">Height: ${item[i].heightVal} cm</div>
-                    <div class="text-white mr-3">Weight: ${item[i].weightVal} kg</div>
+                    <div class="text-white mr-3">BMI : ${bmi}</div>
+                    <div class="text-white mr-3">Height : ${item[i].heightVal} cm</div>
+                    <div class="text-white mr-3">Weight : ${item[i].weightVal} kg</div>
                     <div class="text-white mr-3">${year+'/'+month+'/'+day}</div>
                     <i class="fas fa-trash text-white trash" data-index=${i}></i>
                 </div>
