@@ -66,3 +66,29 @@ table {
     height: 75px;
     border-radius: 20px;
 }
+.circle{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.superthin{
+	background-color: #6f2fff;
+}
+.verythin{
+	background-color: #2f96ff;
+}
+.thin{
+	background-color: #2fffd5;
+}
+.normal{
+	background-color: #2fff39;
+}
+.fat{
+	background-color: #ff982d;
+}
+.veryfat{
+	background-color: #ff6c03;
+}
+.superfat{
+	background-color: #ff1200;
+}
